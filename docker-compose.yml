@@ -9,4 +9,4 @@ services:
     working_dir: /home/node/apps/MY-APP
     ports:
       - "4200:4200"
-    command: ["/bin/bash","-c","cd .. && ng new MY-APP"]
+    command: ["/bin/bash","-c","cd .. && ng new MY-APP --skip-git"]
